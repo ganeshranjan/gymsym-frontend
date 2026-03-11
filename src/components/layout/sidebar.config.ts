@@ -8,7 +8,7 @@ import {
   CreditCardOutlined,
 } from "@ant-design/icons";
 
-interface SidebarConfigItem {
+export interface SidebarConfigItem {
   key: string;
   label: string;
   icon:

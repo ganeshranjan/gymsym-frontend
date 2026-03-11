@@ -22,7 +22,14 @@ export default function Sidebar(): React.JSX.Element {
   });
 
   return (
-    <Sider width={240} theme="light" className={styles.sidebarContainer}>
+    <Sider
+      width={240}
+      theme="light"
+      collapsible
+      //   breakpoint="lg"
+      collapsedWidth="90"
+      className={styles.sidebarContainer}
+    >
       <div className={styles.brandBlock}>
         <img
           src={gymLogo}
@@ -34,7 +41,7 @@ export default function Sidebar(): React.JSX.Element {
       <Menu
         items={menuItems}
         theme="dark"
-        mode="inline"
+        // mode="inline"
         selectedKeys={[selectedKey]}
         className={styles.menuContainer}
       />
