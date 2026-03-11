@@ -3,7 +3,7 @@ import { Layout } from "antd";
 import { Outlet } from "react-router-dom";
 
 import Sidebar from "./Sidebar";
-import HeaderBar from "./Header";
+import HeaderBar from "./HeaderBar";
 
 const { Content } = Layout;
 

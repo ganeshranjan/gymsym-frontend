@@ -8,6 +8,10 @@ import AppLayout from "../components/layout/AppLayout.tsx";
 import DashboardPage from "../modules/dashboard/pages/DashboardPage.tsx";
 import MemberPage from "../modules/members/pages/memberPage.tsx";
 import AttendancePage from "../modules/attendance/pages/AttendancePages.tsx";
+import PaymentsPage from "../modules/payments/pages/PaymentsPage.tsx";
+import PlansPage from "../modules/plans/pages/PlansPage.tsx";
+import ReportsPage from "../modules/reports/pages/ReportsPage.tsx";
+import SettingsPage from "../modules/settings/pages/SettingsPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +33,22 @@ const router = createBrowserRouter([
       {
         path: "attendance",
         element: <AttendancePage />,
+      },
+      {
+        path: "payments",
+        element: <PaymentsPage />,
+      },
+      {
+        path: "plans",
+        element: <PlansPage />,
+      },
+      {
+        path: "reports",
+        element: <ReportsPage />,
+      },
+      {
+        path: "settings",
+        element: <SettingsPage />,
       },
     ],
   },

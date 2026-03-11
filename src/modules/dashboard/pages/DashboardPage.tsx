@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/DashboardPage.module.css";
+import styles from "../styles/Dashboard.module.css";
 
 export default function DashboardPage() {
   return (
