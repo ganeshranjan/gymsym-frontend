@@ -1,7 +1,7 @@
-import "./App.css";
+import AppRouter from "./app/router";
 
 function App() {
-  return <div>gymsym - frontend</div>;
+  return <AppRouter />;
 }
 
 export default App;
