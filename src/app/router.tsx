@@ -12,8 +12,13 @@ import PaymentsPage from "../modules/payments/pages/PaymentsPage.tsx";
 import PlansPage from "../modules/plans/pages/PlansPage.tsx";
 import ReportsPage from "../modules/reports/pages/ReportsPage.tsx";
 import SettingsPage from "../modules/settings/pages/SettingsPage.tsx";
+import LoginPage from "../modules/auth/pages/loginPage.tsx";
 
 const router = createBrowserRouter([
+  {
+    path: "/login",
+    element: <LoginPage />,
+  },
   {
     path: "/",
     element: <AppLayout />,

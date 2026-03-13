@@ -5,6 +5,7 @@
 .brandBlock {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
   padding: 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -12,6 +13,61 @@
   font-size: 18px;
   font-weight: 600;
   background-color: #1677ff;
+}
+
+.brandMain {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.brandLogo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.brandTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.brandTitleCollapsed {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.brandActions {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.sidebarToggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  border: none;
+  background: rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    transform 0.1s ease;
+}
+
+.sidebarToggle:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.sidebarToggle:active {
+  transform: scale(0.96);
 }
 
 .menuContainer {
